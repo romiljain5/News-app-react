@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+.bod{
+    width: 100%;
+    margin: 0 auto;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    float:left;
+    width: 20%;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #00000048;
+}
+img{
+    width: auto;
+}
+.color-box{
+    background-color: purple;
+    color: white;
+    display: flex;
+    width:fit-content;
+    padding: 7px 15px;
+    border-radius: 50px;
+    margin: 10px 0;
+
+}
+.sm-container{
+    padding: 20px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.author, .date{
+    font-size: 13px;
+    padding: 5px;
+    /* background-color: aqua; */
+    width: fit-content;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    padding: 0 5px 0 0;
+}
