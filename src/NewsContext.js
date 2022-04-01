@@ -5,10 +5,10 @@ export const createNewsContext = createContext();
 
 export const NewsContext = (props) => {
     const [data, setData] = useState()
-    const apikey = '47ce63b6d2f845adb5d5719f2bd6f8d4'
+    const apikey = 'd259e4760a24430488334b7061a4b291'
 
     useEffect(() => {
-        axios.get(`https://newsapi.org/v2/everything?q=tesla&from=2022-02-16&sortBy=publishedAt&apiKey=${apikey}`)
+        axios.get(`https://newsapi.org/v2/everything?q=tesla&from=2022-03-01&sortBy=publishedAt&apiKey=${apikey}`)
         .then((response) => setData(response.data))
         .catch((error) => console.log(error))
     }, [])
